@@ -1,0 +1,35 @@
+form{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+ 
+    .renderedField{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .name, .email{
+        display: flex;
+        flex-direction: column;
+        margin-top: 10px;
+    }
+
+    .gender, .status{
+        margin-top: 10px;
+        width: 155px;
+
+        select{
+            width: 100%
+        }
+    }
+
+    .submitButton{
+        margin-top: 20px;
+
+        button[type='submit']{
+            margin-right: 10px;
+        }
+    }
+}
